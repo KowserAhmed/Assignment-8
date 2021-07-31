@@ -1,0 +1,21 @@
+.club-list-container{
+    background-color: black;
+}
+.club-list{
+    width:80%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto; 
+}
+
+@media screen and (max-width:900px){
+    .club-list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and ( max-width:426px){
+    .club-list{
+        grid-template-columns: 1fr;
+    }
+}

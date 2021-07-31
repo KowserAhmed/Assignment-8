@@ -1,0 +1,22 @@
+.club{
+    margin: 10px;
+    background-color: #F2AA4CFF;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: rgba(255, 255, 255, .50) 0px 5px 15px;
+}
+.club img{
+    width: 100px;
+    height: 100px;
+}
+.club button{
+    background-color: #283E78;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: large;
+    padding: 7px 15px;
+}
+.club button:hover{
+    background-color: blue;
+}
